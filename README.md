@@ -5,14 +5,7 @@ format used by the Swedish Tax Agency (Skatteverket) for filing corporate
 income tax declarations (INK2 and its appendices), as defined in the
 [SKV 269](https://www.skatteverket.se/) technical specification.
 
-## Why
-
-A search of PyPI and GitHub turned up only **write-only** SRU encoders
-(`pysru-accounting`, `K4Skatt`) — useful for *generating* an SRU file, but
-nothing that *parses* an existing `BLANKETTER.SRU`/`INFO.SRU` file into
-structured, semantically-labelled Python objects.
-
-`pysru-mab` fills that gap:
+`pysru-mab` cn:
 
 - **Parse** `BLANKETTER.SRU` and `INFO.SRU` into typed Python objects.
 - **Write** them back out, with byte-identical round-trip for unmodified
