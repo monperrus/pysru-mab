@@ -105,6 +105,7 @@ class Blankett:
 class SruFile:
     blanketter: list[Blankett] = field(default_factory=list)
     has_fil_slut: bool = False
+    trailing_newline: bool = True
 
     def find(self, form_name: str, year: int | None = None) -> list[Blankett]:
         return [
@@ -116,6 +117,7 @@ class SruFile:
     def to_dict(self) -> dict[str, Any]:
         return {
             "has_fil_slut": self.has_fil_slut,
+            "trailing_newline": self.trailing_newline,
             "blanketter": [b.to_dict() for b in self.blanketter],
         }
 
@@ -124,4 +126,5 @@ class SruFile:
         return cls(
             blanketter=[Blankett.from_dict(b) for b in d.get("blanketter", [])],
             has_fil_slut=d.get("has_fil_slut", False),
+            trailing_newline=d.get("trailing_newline", True),
         )

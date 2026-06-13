@@ -16,6 +16,7 @@ class SruParseError(ValueError):
 
 def parse(text: str, *, strict: bool = True) -> SruFile:
     sru_file = SruFile()
+    sru_file.trailing_newline = text.endswith(("\r\n", "\n", "\r")) if text else True
     current: Blankett | None = None
     line_no = 0
     line = ""

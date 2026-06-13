@@ -40,6 +40,15 @@ class TestWriteInfo:
         assert "#DATABESKRIVNING_START" in text
         assert "#MEDIELEV_SLUT" in text
 
+    def test_no_trailing_newline_preserved(self) -> None:
+        original = (
+            "#DATABESKRIVNING_START\r\n#DATABESKRIVNING_SLUT\r\n"
+            "#MEDIELEV_START\r\n#MEDIELEV_SLUT"
+        )
+        info = parse_info(original)
+        assert info.trailing_newline is False
+        assert write_info(info) == original
+
 
 class TestFileRoundtrip:
     def test_parse_write_file_cp850(self, tmp_path: Path) -> None:
