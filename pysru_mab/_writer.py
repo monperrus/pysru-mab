@@ -31,7 +31,12 @@ def write(sru_file: SruFile) -> str:
     if sru_file.has_fil_slut:
         lines.append("#FIL_SLUT")
 
-    return LINE_ENDING.join(lines) + LINE_ENDING if lines else ""
+    if not lines:
+        return ""
+    text = LINE_ENDING.join(lines)
+    if sru_file.trailing_newline:
+        text += LINE_ENDING
+    return text
 
 
 def write_file(sru_file: SruFile, path: str | Path, *, encoding: str = "cp850") -> None:

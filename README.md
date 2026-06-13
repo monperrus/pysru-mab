@@ -55,9 +55,9 @@ sru_file = parse_file("BLANKETTER.SRU")
 write_file(sru_file, "BLANKETTER_OUT.SRU")
 ```
 
-`write_file` always emits CRLF line endings (as required by the SRU
-format), regardless of the input. Unmodified files round-trip
-byte-for-byte.
+`write_file` emits CRLF line endings (as required by the SRU format).
+For unmodified parsed files, the writer also preserves whether the
+source had a trailing newline, so round-trips are byte-for-byte.
 
 ## INFO.SRU
 
@@ -125,7 +125,8 @@ correctly, but `describe()` returns `None` for them until a table is added.
 - **Encoding**: SKV269 specifies CP850/IBM850. `cp850` is the default for
   all read/write functions, but it's configurable via the `encoding`
   keyword argument.
-- **Line endings**: always CRLF (`\r\n`) on output.
+- **Line endings**: CRLF (`\r\n`) on output, while preserving whether the
+  source had a trailing newline when round-tripping parsed files.
 - **Form IDs**: `#BLANKETT` lines use IDs like `INK2-2025P4`, parsed into
   `form_name="INK2"`, `year=2025`, `period="P4"`.
 - **Values**: `#UPPGIFT` values are kept as raw strings to preserve sign,

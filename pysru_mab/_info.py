@@ -21,10 +21,12 @@ class InfoSru:
     adress: str | None = None
     postnr: str | None = None
     postort: str | None = None
+    trailing_newline: bool = True
 
 
 def parse_info(text: str) -> InfoSru:
     info = InfoSru()
+    info.trailing_newline = text.endswith(("\r\n", "\n", "\r")) if text else True
 
     for line_no, raw_line in enumerate(text.splitlines(), start=1):
         line = raw_line.rstrip("\r\n")
@@ -95,7 +97,10 @@ def write_info(info: InfoSru) -> str:
         lines.append(f"#POSTORT {info.postort}")
     lines.append("#MEDIELEV_SLUT")
 
-    return LINE_ENDING.join(lines) + LINE_ENDING
+    text = LINE_ENDING.join(lines)
+    if info.trailing_newline:
+        text += LINE_ENDING
+    return text
 
 
 def write_info_file(info: InfoSru, path: str | Path, *, encoding: str = DEFAULT_ENCODING) -> None:

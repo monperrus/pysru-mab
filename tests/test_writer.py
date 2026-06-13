@@ -47,6 +47,18 @@ class TestWrite:
         text = write(sru_file)
         assert "#FIL_SLUT" not in text
 
+    def test_no_trailing_newline_preserved(self) -> None:
+        original = "#BLANKETT INK2-2025P4\r\n#BLANKETTSLUT\r\n#FIL_SLUT"
+        sru_file = parse(original)
+        assert sru_file.trailing_newline is False
+        assert write(sru_file) == original
+
+    def test_trailing_newline_preserved(self) -> None:
+        original = "#BLANKETT INK2-2025P4\r\n#BLANKETTSLUT\r\n#FIL_SLUT\r\n"
+        sru_file = parse(original)
+        assert sru_file.trailing_newline is True
+        assert write(sru_file) == original
+
 
 class TestWriteFile:
     def test_roundtrip_with_cp850(self, tmp_path: Path) -> None:
