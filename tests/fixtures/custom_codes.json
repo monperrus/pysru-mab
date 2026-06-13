@@ -1,0 +1,11 @@
+{
+  "form": "INK2X",
+  "source": "custom test table",
+  "codes": {
+    "9999": {
+      "label": "Test code",
+      "description": "A custom test code.",
+      "field_type": "amount"
+    }
+  }
+}

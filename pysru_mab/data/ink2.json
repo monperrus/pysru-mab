@@ -1,0 +1,21 @@
+{
+  "form": "INK2",
+  "source": "SKV 269 (INK2, period 2025P4)",
+  "codes": {
+    "7011": {
+      "label": "Räkenskapsår, från",
+      "description": "Räkenskapsårets startdatum (ÅÅÅÅMMDD).",
+      "field_type": "date"
+    },
+    "7012": {
+      "label": "Räkenskapsår, till",
+      "description": "Räkenskapsårets slutdatum (ÅÅÅÅMMDD).",
+      "field_type": "date"
+    },
+    "7104": {
+      "label": "Skattemässigt resultat",
+      "description": "Skattemässigt resultat (efter skattemässiga justeringar) som förs vidare till INK2R.",
+      "field_type": "amount"
+    }
+  }
+}

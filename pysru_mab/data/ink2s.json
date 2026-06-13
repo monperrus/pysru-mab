@@ -1,0 +1,51 @@
+{
+  "form": "INK2S",
+  "source": "SKV 269 (INK2S, period 2025P4)",
+  "codes": {
+    "7011": {
+      "label": "Räkenskapsår, från",
+      "description": "Räkenskapsårets startdatum (ÅÅÅÅMMDD).",
+      "field_type": "date"
+    },
+    "7012": {
+      "label": "Räkenskapsår, till",
+      "description": "Räkenskapsårets slutdatum (ÅÅÅÅMMDD).",
+      "field_type": "date"
+    },
+    "7650": {
+      "label": "Bokfört resultat",
+      "description": "Redovisat resultat enligt räkenskaperna, före skattemässiga justeringar.",
+      "field_type": "amount"
+    },
+    "7651": {
+      "label": "Bokförda kostnader som inte ska dras av",
+      "description": "Bokförda kostnader som inte ska dras av (skattemässig återläggning).",
+      "field_type": "amount"
+    },
+    "7653": {
+      "label": "Bokförda intäkter som inte ska tas upp",
+      "description": "Bokförda intäkter som inte ska tas upp till beskattning.",
+      "field_type": "amount"
+    },
+    "7670": {
+      "label": "Skattemässig justering av bokfört resultat",
+      "description": "Summerad skattemässig justering av bokfört resultat.",
+      "field_type": "amount"
+    },
+    "7754": {
+      "label": "Underskott från tidigare år",
+      "description": "Outnyttjat underskott från tidigare beskattningsår.",
+      "field_type": "amount"
+    },
+    "8041": {
+      "label": "Överskott (skattemässigt resultat före avdrag för avsättning)",
+      "description": "Skattemässigt resultat före avdrag för avsättning till periodiseringsfond m.m.",
+      "field_type": "amount"
+    },
+    "8045": {
+      "label": "Beräknad schablonintäkt",
+      "description": "Schablonintäkt på avsättningar till periodiseringsfonder.",
+      "field_type": "amount"
+    }
+  }
+}

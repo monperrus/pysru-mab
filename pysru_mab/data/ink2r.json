@@ -1,0 +1,101 @@
+{
+  "form": "INK2R",
+  "source": "SKV 269 (INK2R, period 2025P4)",
+  "codes": {
+    "7011": {
+      "label": "Räkenskapsår, från",
+      "description": "Räkenskapsårets startdatum (ÅÅÅÅMMDD).",
+      "field_type": "date"
+    },
+    "7012": {
+      "label": "Räkenskapsår, till",
+      "description": "Räkenskapsårets slutdatum (ÅÅÅÅMMDD).",
+      "field_type": "date"
+    },
+    "7251": {
+      "label": "Nettoomsättning",
+      "description": "Nettoomsättning för räkenskapsåret.",
+      "field_type": "amount"
+    },
+    "7261": {
+      "label": "Övriga rörelseintäkter",
+      "description": "Övriga rörelseintäkter.",
+      "field_type": "amount"
+    },
+    "7271": {
+      "label": "Aktiverat arbete för egen räkning",
+      "description": "Aktiverat arbete för egen räkning.",
+      "field_type": "amount"
+    },
+    "7281": {
+      "label": "Råvaror och förnödenheter",
+      "description": "Råvaror och förnödenheter.",
+      "field_type": "amount"
+    },
+    "7301": {
+      "label": "Övriga externa kostnader",
+      "description": "Övriga externa kostnader.",
+      "field_type": "amount"
+    },
+    "7302": {
+      "label": "Personalkostnader",
+      "description": "Personalkostnader.",
+      "field_type": "amount"
+    },
+    "7321": {
+      "label": "Av- och nedskrivningar av anläggningstillgångar",
+      "description": "Av- och nedskrivningar av materiella och immateriella anläggningstillgångar.",
+      "field_type": "amount"
+    },
+    "7368": {
+      "label": "Övriga rörelsekostnader",
+      "description": "Övriga rörelsekostnader.",
+      "field_type": "amount"
+    },
+    "7369": {
+      "label": "Rörelseresultat",
+      "description": "Summa rörelseresultat.",
+      "field_type": "amount"
+    },
+    "7410": {
+      "label": "Resultat från finansiella poster",
+      "description": "Resultat från finansiella poster.",
+      "field_type": "amount"
+    },
+    "7417": {
+      "label": "Räntekostnader och liknande resultatposter",
+      "description": "Räntekostnader och liknande resultatposter.",
+      "field_type": "amount"
+    },
+    "7450": {
+      "label": "Resultat efter finansiella poster",
+      "description": "Resultat efter finansiella poster.",
+      "field_type": "amount"
+    },
+    "7511": {
+      "label": "Bokslutsdispositioner, förändring av periodiseringsfond",
+      "description": "Förändring av periodiseringsfond.",
+      "field_type": "amount"
+    },
+    "7513": {
+      "label": "Bokslutsdispositioner, koncernbidrag",
+      "description": "Lämnade och mottagna koncernbidrag.",
+      "field_type": "amount"
+    },
+    "7514": {
+      "label": "Övriga bokslutsdispositioner",
+      "description": "Övriga bokslutsdispositioner.",
+      "field_type": "amount"
+    },
+    "7522": {
+      "label": "Skatt på årets resultat",
+      "description": "Skatt på årets resultat.",
+      "field_type": "amount"
+    },
+    "7528": {
+      "label": "Årets resultat",
+      "description": "Årets resultat enligt resultaträkningen.",
+      "field_type": "amount"
+    }
+  }
+}
