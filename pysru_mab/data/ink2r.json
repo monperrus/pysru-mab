@@ -13,88 +13,88 @@
       "field_type": "date"
     },
     "7251": {
-      "label": "Nettoomsättning",
-      "description": "Nettoomsättning för räkenskapsåret.",
+      "label": "Kundfordringar",
+      "description": "Kundfordringar (balansräkningen, rad 2.19).",
       "field_type": "amount"
     },
     "7261": {
-      "label": "Övriga rörelseintäkter",
-      "description": "Övriga rörelseintäkter.",
+      "label": "Fordringar hos övriga företag som det finns ett ägarintresse i och övriga fordringar",
+      "description": "Övriga kortfristiga fordringar, inklusive fordringar hos företag med ägarintresse (balansräkningen, rad 2.21).",
       "field_type": "amount"
     },
     "7271": {
-      "label": "Aktiverat arbete för egen räkning",
-      "description": "Aktiverat arbete för egen räkning.",
+      "label": "Övriga kortfristiga placeringar",
+      "description": "Övriga kortfristiga placeringar (balansräkningen, rad 2.25).",
       "field_type": "amount"
     },
     "7281": {
-      "label": "Råvaror och förnödenheter",
-      "description": "Råvaror och förnödenheter.",
+      "label": "Kassa, bank och redovisningsmedel",
+      "description": "Kassa, bank och redovisningsmedel (balansräkningen, rad 2.26).",
       "field_type": "amount"
     },
     "7301": {
-      "label": "Övriga externa kostnader",
-      "description": "Övriga externa kostnader.",
+      "label": "Bundet eget kapital",
+      "description": "Bundet eget kapital, t.ex. aktiekapital och bunden reservfond (balansräkningen, rad 2.27).",
       "field_type": "amount"
     },
     "7302": {
-      "label": "Personalkostnader",
-      "description": "Personalkostnader.",
+      "label": "Fritt eget kapital",
+      "description": "Fritt eget kapital, inklusive balanserat resultat och årets resultat (balansräkningen, rad 2.28).",
       "field_type": "amount"
     },
     "7321": {
-      "label": "Av- och nedskrivningar av anläggningstillgångar",
-      "description": "Av- och nedskrivningar av materiella och immateriella anläggningstillgångar.",
+      "label": "Periodiseringsfonder",
+      "description": "Avsättningar till periodiseringsfonder, obeskattade reserver (balansräkningen, rad 2.29).",
       "field_type": "amount"
     },
     "7368": {
-      "label": "Övriga rörelsekostnader",
-      "description": "Övriga rörelsekostnader.",
+      "label": "Skatteskulder",
+      "description": "Skatteskulder (balansräkningen, rad 2.49).",
       "field_type": "amount"
     },
     "7369": {
-      "label": "Rörelseresultat",
-      "description": "Summa rörelseresultat.",
+      "label": "Skulder till övriga företag som det finns ett ägarintresse i och övriga skulder",
+      "description": "Övriga kortfristiga skulder, inklusive skulder till företag med ägarintresse (balansräkningen, rad 2.48).",
       "field_type": "amount"
     },
     "7410": {
-      "label": "Resultat från finansiella poster",
-      "description": "Resultat från finansiella poster.",
+      "label": "Nettoomsättning",
+      "description": "Nettoomsättning för räkenskapsåret (resultaträkningen, rad 3.1).",
       "field_type": "amount"
     },
     "7417": {
-      "label": "Räntekostnader och liknande resultatposter",
-      "description": "Räntekostnader och liknande resultatposter.",
+      "label": "Övriga ränteintäkter och liknande resultatposter",
+      "description": "Övriga ränteintäkter och liknande resultatposter (resultaträkningen, rad 3.16).",
       "field_type": "amount"
     },
     "7450": {
-      "label": "Resultat efter finansiella poster",
-      "description": "Resultat efter finansiella poster.",
+      "label": "Årets resultat, vinst",
+      "description": "Årets resultat när räkenskapsåret gett vinst, förs till INK2 punkt 4.1 (resultaträkningen, rad 3.26).",
       "field_type": "amount"
     },
     "7511": {
-      "label": "Bokslutsdispositioner, förändring av periodiseringsfond",
-      "description": "Förändring av periodiseringsfond.",
+      "label": "Råvaror och förnödenheter",
+      "description": "Råvaror och förnödenheter (resultaträkningen, rad 3.5).",
       "field_type": "amount"
     },
     "7513": {
-      "label": "Bokslutsdispositioner, koncernbidrag",
-      "description": "Lämnade och mottagna koncernbidrag.",
+      "label": "Övriga externa kostnader",
+      "description": "Övriga externa kostnader (resultaträkningen, rad 3.7).",
       "field_type": "amount"
     },
     "7514": {
-      "label": "Övriga bokslutsdispositioner",
-      "description": "Övriga bokslutsdispositioner.",
+      "label": "Personalkostnader",
+      "description": "Personalkostnader (resultaträkningen, rad 3.8).",
       "field_type": "amount"
     },
     "7522": {
-      "label": "Skatt på årets resultat",
-      "description": "Skatt på årets resultat.",
+      "label": "Räntekostnader och liknande resultatposter",
+      "description": "Räntekostnader och liknande resultatposter (resultaträkningen, rad 3.18).",
       "field_type": "amount"
     },
     "7528": {
-      "label": "Årets resultat",
-      "description": "Årets resultat enligt resultaträkningen.",
+      "label": "Skatt på årets resultat",
+      "description": "Skatt på årets resultat (resultaträkningen, rad 3.25).",
       "field_type": "amount"
     }
   }
